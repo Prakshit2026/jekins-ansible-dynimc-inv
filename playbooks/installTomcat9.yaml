@@ -1,4 +1,4 @@
-- hosts: Host 2
+- hosts: 'Host 2'
   become: true
   tasks:
     - name: Install Java
